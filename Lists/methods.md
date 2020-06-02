@@ -24,7 +24,37 @@
 4
 ```
 
-`count` gives you how many instances of x occur inside the array
+2. `count` gives you how many instances of x occur inside the array
+
+```
+numbers2 = [5,5,5, 6,7, 7, 8, 9, 10]
+>>> numbers2.count(5)
+3
+>>> numbers2.count(7)
+2
+>>> numbers2.count(12)
+0
+```
+
+3. `reverse` reverses the elements in the list
+
+```
+>>> numbers = [5, 6, 7, 8, 9, 10]
+>>> numbers
+[5, 6, 7, 8, 9, 10]
+>>> numbers.reverse()
+>>> numbers
+[10, 9, 8, 7, 6, 5]
+
+```
+
+4. `sort` sorts the elements in a list
+
+
+
+
+
+
 
 
 
